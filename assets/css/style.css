@@ -1,0 +1,28 @@
+body,
+html {
+  font-family: "Roboto" !important;
+  height: 100%;
+  margin: 0;
+}
+
+#background {
+  background: url(/img/low-poly-grid-haikei.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.btncustom {
+  background-color: #e5ebb2 !important;
+}
+
+.btncustom:hover {
+  background-color: #fff !important;
+  transition: 0.75s;
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -ms-transition: 0.75s;
+  -o-transition: 0.75s;
+}
